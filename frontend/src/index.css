@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+    @apply bg-purple-500 hover:bg-purple-700 text-white px-4 py-2 rounded transition;
+}
+
+.card {
+    @apply bg-white p-4 rounded shadow-md max-w-md;
+}
+
+.input {
+    @apply border p-2 rounded w-full mb-2;
+}
+
+.title {
+    @apply text-xl font-semibold mb-3;
+}
+
+.error {
+    @apply text-red-600 mt-2;
+}
